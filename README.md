@@ -29,7 +29,6 @@ contains all files extracted from [QBiC download page](http://qbic.genome.duke.e
 with the paths to the following files: [PBM_HUGO_MAPPING](https://github.com/vincentiusmartin/QBiC-Pred/blob/master/website/resources/mappingdata/hugotopbm.txt) and
 [HUGO_PBM_MAPPING](https://github.com/vincentiusmartin/QBiC-Pred/blob/master/website/resources/mappingdata/pbmtohugo.txt).
 
-https://www.dropbox.com/sh/7f7falcx3jvubbj/AADh_jcsfbWc1jKI34HpCd5aa?dl=1
 
 
 
