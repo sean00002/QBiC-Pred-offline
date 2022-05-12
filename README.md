@@ -15,9 +15,7 @@ in the disk.
 1. First thing to do is to copy `config.ini.example` to a file called `config.ini`.
 We will then fill up all lines in the configuration file.
 2. To fill `PREDDIR`, we need to download all the predictions used by imads.
-These files can be downloaded from the [QBiC download page](http://qbic.genome.duke.edu/downloads).
-Just scroll to "Download our 12-mer prediction tables", download all 10 parts,
-unzip them in a single directory. Then put the path of this directory to `PREDDIR`
+These files can be downloaded from the [premodel download](https://www.dropbox.com/sh/7f7falcx3jvubbj/AADh_jcsfbWc1jKI34HpCd5aa?dl=1), unzip them in a single directory. Then put the path of this directory to `PREDDIR`
 in `config.ini`.
 3. For `CHRDIR`, we need to prepare directory for the chromosome files which is
 available in [QBiC download page](http://qbic.genome.duke.edu/downloads) in
@@ -30,6 +28,10 @@ contains all files extracted from [QBiC download page](http://qbic.genome.duke.e
 5. Then we need to fill the mapping configurations by filling all the fields
 with the paths to the following files: [PBM_HUGO_MAPPING](https://github.com/vincentiusmartin/QBiC-Pred/blob/master/website/resources/mappingdata/hugotopbm.txt) and
 [HUGO_PBM_MAPPING](https://github.com/vincentiusmartin/QBiC-Pred/blob/master/website/resources/mappingdata/pbmtohugo.txt).
+
+https://www.dropbox.com/sh/7f7falcx3jvubbj/AADh_jcsfbWc1jKI34HpCd5aa?dl=1
+
+
 
 ## Running QBiC offline
 Below is an example of a command to run QBiC offline:
