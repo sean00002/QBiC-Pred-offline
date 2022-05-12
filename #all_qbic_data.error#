@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "qbic.py", line 371, in <module>
+    main()
+  File "qbic.py", line 366, in main
+    args.escorespec, args.escorenonspec, args.numthreads)
+  File "qbic.py", line 308, in do_prediction
+    return postprocess(res,predfiles,gene_names,filteropt,filterval)
+  File "qbic.py", line 239, in postprocess
+    datalist = pd.concat(datalist, ignore_index=True, axis=0)
+  File "/nfs/software/helmod/apps/Core/Anaconda3/2.1.0-fasrc01/x/lib/python3.4/site-packages/pandas/tools/merge.py", line 717, in concat
+    verify_integrity=verify_integrity)
+  File "/nfs/software/helmod/apps/Core/Anaconda3/2.1.0-fasrc01/x/lib/python3.4/site-packages/pandas/tools/merge.py", line 748, in __init__
+    objs = [obj for obj in objs if obj is not None ]
+  File "/nfs/software/helmod/apps/Core/Anaconda3/2.1.0-fasrc01/x/lib/python3.4/site-packages/pandas/tools/merge.py", line 748, in <listcomp>
+    objs = [obj for obj in objs if obj is not None ]
+  File "/nfs/software/helmod/apps/Core/Anaconda3/2.1.0-fasrc01/x/lib/python3.4/concurrent/futures/_base.py", line 549, in result_iterator
+    yield future.result()
+  File "/nfs/software/helmod/apps/Core/Anaconda3/2.1.0-fasrc01/x/lib/python3.4/concurrent/futures/_base.py", line 395, in result
+    return self.__get_result()
+  File "/nfs/software/helmod/apps/Core/Anaconda3/2.1.0-fasrc01/x/lib/python3.4/concurrent/futures/_base.y", line 354, in __get_result
+    raise self._exception
+AttributeError: 'DataFrame' object has no attribute 'round'

@@ -1,0 +1,11 @@
+
+[General Conf]
+# cpu.count
+PCOUNT = cpu.count
+
+[Directory Setting]
+PREDDIR = /your/path/here/preddir
+CHRDIR = /your/path/here/chromosomes
+ESCORE_DIR = /your/path/here/escore
+PBM_HUGO_MAPPING = /your/path/here/pbmtohugo.txt
+HUGO_PBM_MAPPING = /your/path/here/hugotopbm.txt
