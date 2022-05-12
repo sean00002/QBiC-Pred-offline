@@ -1,5 +1,0 @@
-#! /bin/zsh
-
-for filename in /Users/shengyuli/Dropbox/Research/Schizophrenia/Data_pipeline/all_oc_for_qbic/*.vcf; do
-    mv "$filename"  "/Users/shengyuli/Dropbox/Research/Schizophrenia/Data_pipeline/all_oc_from_qbic/from_qbic_$(basename "$filename" .vcf).csv"
-done
